@@ -10,4 +10,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .mat-expansion-panel {
     background-color: #F5F5F5;
+  border-width: 2px;
+  margin-bottom: 14px !important;
+}
+
+.mat-toolbar {
+  background-color: black;
+  color: white;
+}
+
+.mat-flat-button {
+  background-color: white !important;
 }

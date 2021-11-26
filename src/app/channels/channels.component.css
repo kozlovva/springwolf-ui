@@ -1,11 +1,29 @@
 .operation-badge {
-    background-color: #CDDC39;
+  color: white;
     border-radius: 4px;
     padding: 8px;
     font-size: small;
     font-weight: bold;
 }
+.operation-badge-producer {
+  background-color: #61affe;
+}
+.operation-badge-consumer {
+  background-color: #49cc90;
+}
 
 mat-divider {
     height: 20px;
 }
+
+.mat-expansion-panel-consumer {
+  border-color: #49cc90 !important;
+  background-color: rgba(73,204,144,.1);
+}
+
+.mat-expansion-panel-producer {
+  border-color: #61affe !important;
+  background-color: rgba(97,175,254,.1);
+}
+
+

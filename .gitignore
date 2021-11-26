@@ -8,6 +8,8 @@
 /bazel-out
 /.gradle
 /build
+/target
+/node
 
 # dependencies
 /node_modules
